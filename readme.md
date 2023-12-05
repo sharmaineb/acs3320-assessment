@@ -1,5 +1,7 @@
 # FEW 2.2 Final Assessment 
 
+[Link To Assessment Live Page](https://sharmaineb.github.io/acs3320-assessment/)
+
 Your job is to style the color.fun website. Use your CSS framework as a starting point. You don't have to write all of the styles from scratch!
 
 Feel free to modify the HTML markup on the page in any way that you wish. You must not break the functionality! Two things happen here: 
