@@ -1,31 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
-			<style>
-			
-				.swatch {
-					/* Remove this rule when you set your colors! */
-					background-color: red;
-					margin: 1px;
-					width: 100px;
-					height: 100px;
-				}
-			
-				main {
-					width: 600px;
-					margin: auto;
-				}
-			</style>
+		<title>ACS 3320 Final Assessment - Sharmaine</title>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 
 		<!-- Base Styles - Set the base styles for the page -->
 
 		<main>
-
 			<!-- navbar - Style the navbar -->
-			<section id="nav">
+			<section id="navbar"> <!-- Update the ID to match the CSS selector -->
 				<header>
 					<nav>
 						<a href="#">Color.com</a>
@@ -172,15 +157,16 @@
 			// --color-sample-99 : blue
 
 			// make some swatches 
-			const swatchCount = 100
-			for (let i = 0; i < swatchCount; i += 1) {
-				const swatch = `
-				<div 
-					class="swatch add-to-cart color-${i}" 
-					data-color="Color ${i}" 
-					data-price="${(Math.random() * 10).toFixed(2)}"></div>`
-				document.querySelector('.swatches').innerHTML += swatch
-			}
+			// const swatchCount = 100
+			// for (let i = 0; i < swatchCount; i += 1) {
+			// 	const swatch = `
+			// 	<div 
+			// 		class="swatch add-to-cart color-${i}" 
+			// 		data-color="Color ${i}" 
+			// 		data-price="${(Math.random() * 10).toFixed(2)}"></div>`
+			// 	document.querySelector('.swatches').innerHTML += swatch
+			// }
+			
 
       const addForm = document.getElementById('add-form')
       const inputName = document.getElementById('name')
@@ -308,6 +294,7 @@
       getTotal()
 
 		</script>
-		
+		<script src="scripts.js"></script>
+		<script src="ticker-tape.js" defer></script>
 	</body>
 </html>

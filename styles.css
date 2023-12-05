@@ -1,0 +1,326 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+
+/* reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.7;
+    color: #f1f1f1;
+    background-color: #000000;
+}
+
+/* navbar */
+#navbar { 
+    background-color: #000000; 
+    color: #000; 
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar a {
+    color: #f1f1f1; 
+    font-family: 'IM Fell French Canon', sans-serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.5em;
+}
+
+#navbar a:hover {
+    color: #ff9800; 
+    text-decoration: underline;
+}
+
+/* banner styles */
+#banner {
+    background-color: #000; 
+    color: #ff9800; 
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#banner h1 {
+    font-family: 'Mountains of Christmas', sans-serif;
+    font-size: 3.7em;
+    margin: 0;
+}
+
+/* about' section */
+#about {
+    background-color: #f1f1f1; 
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    margin: 2em;
+}
+
+#about h1 {
+    font-family: 'Mountains of Christmas', sans-serif;
+    font-size: 2.5em;
+    color: #ff9800; 
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#about p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    font-family: 'IM Fell French Canon', sans-serif;
+}
+
+#about strong {
+    color: darksalmon; 
+}
+
+#about a {
+    color: #34ace0; 
+    text-decoration: none;
+}
+
+#about a:hover {
+    text-decoration: underline;
+}
+
+/* popular section and color cards */
+#popular {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 20px;
+    background-color: #000; 
+    padding: 20px;
+    border-radius: 10px; 
+    margin: 2em;
+}
+
+#popular p {
+    font-family: 'IM Fell French Canon', sans-serif;
+    font-size: 1.2em; 
+}
+
+.card {
+    background-color: #f1f1f1; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.card img {
+    width: 95%; 
+    border-bottom: 1px solid #000;  
+    margin: 2em;
+    border-radius: 8px;    
+}
+
+.card p {
+    padding: 15px;
+    font-family: 'IM Fell French Canon', sans-serif;
+    font-size: 1.2em; 
+    color: #000;
+    margin: 0;
+    background-color: lightgray; 
+}
+
+
+.card:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+
+/* swatches section */
+#swatches {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    margin: 2em;
+}
+
+#swatches header {
+    margin-bottom: 20px;
+}
+
+#swatches h1 {
+    font-family: 'Mountains of Christmas', sans-serif;
+    font-size: 3.5em;
+    color: #ff9800; 
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#swatches p {
+    font-size: 1.2em;
+}
+
+.swatches {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* cart section */
+#cart {
+    background-color: #f1f1f1; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    margin: 2em;
+    margin-top: 2em;
+}
+
+#cart header {
+    margin-bottom: 20px;
+}
+
+#cart h1 {
+    font-family: 'Mountains of Christmas', sans-serif;
+    font-size: 2.5em;
+    color: #ff9800; 
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#items {
+    list-style: none;
+    padding: 0;
+    color: #000;
+}
+
+#items li {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-family: 'IM Fell French Canon', sans-serif;
+    color: #000;
+}
+
+#total {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #000;
+}
+
+#items li:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+}
+
+/* contact section */
+#contact {
+    background-color: #f1f1f1; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2em;
+}
+
+#contact header {
+    margin-bottom: 20px;
+    margin: 2em;
+}
+
+#contact h1 {
+    font-family: 'Mountains of Christmas', sans-serif;
+    font-size: 3.0em;
+    color: #ff9800; 
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#contact form {
+    display: grid;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #000;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #000;
+}
+
+#contact textarea {
+    resize: vertical; 
+    width: 90%;
+}
+
+#contact button {
+    background-color: #ff9800; 
+    color: #000; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#contact button:hover {
+    background-color: lightgreen; 
+}
+
+#contact input[type="text"] {
+    width: 90%; 
+    padding: 8px; 
+}
+
+#contact input[type="checkbox"],
+#contact input[type="radio"] {
+    margin-right: 5px;
+}
+
+#contact label input[type="checkbox"],
+#contact label input[type="radio"] {
+    margin-right: 10px;
+}
+
+#contact label input[type="checkbox"]:checked + span,
+#contact label input[type="radio"]:checked + span {
+    font-weight: bold;
+    color: #ff9800; 
+}
+
+/* swatches container */
+.swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    gap: 10px; 
+    width: 100%; 
+}
+
+.swatch {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 1px; /
+}
+
+.swatch:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out;
+}
+  
